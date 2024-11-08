@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppy-landing-page-view</title>
+   <!--this is a simple front view of a Dog website that has the landing page view of the site and a navigation bar which is not functional
+   the website was intended to display the diffrent type of dogs and how you can purchase them. it also has a contact us number and an email address
+   that you can get to us if you want to sell your dog or buy your dog-->
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        <!--this is the styles to the main section of the page that covers the entire front end view-->
+   #main-section{
+         width: 100%;
+         height: 98vh;
+         background-image: url(R.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;   
+   }
+
+
+   #green-section{
+  width: 100%;
+  height: 30px;
+  background-color: green;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 350px;
+   }
+
+   #number{
+  font-weight: 800;
+  font-size: 20px;
+   }
+
+   #email{
+  font-weight: 800;
+  font-size: 20px;
+   }
+
+   #social-media-icons{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+   }
+
+   #icon-one{
+   background-color: white;
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   }
+
+   #icon-two{
+background-color: red;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+   }
+
+   #icon-three{
+background-color: purple;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+   }
+   #icon-four{
+    background-color: black;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+   }
+
+#the-white-section{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-left: 700px;
+    margin-top: 20px;
+}
+
+#nav-one, #nav-two, #nav-three{
+    color: black;
+    font-weight: 800;
+}
+#logo{
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: 800;
+}
+#nav-four{
+    color: white;
+    font-weight: 800;
+    background-color: green;
+   
+    border-radius: 10px;
+    margin-bottom: 3px;
+    width: 70px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+#nav-four:hover{
+background-color: black;
+}
+#text{    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 1000px;
+    height: 150px;
+    margin-top: 200px;
+    margin-left: 150px;   
+}
+#puppy-text{
+    color: black;
+    font-weight: 800;
+  font-size: 70px;
+}
+
+#action-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-top: 60px;
+    margin-left: 410px;
+
+}
+#action-1, #action-2{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#action-1:hover, #action-2:hover{
+    background-color: rgba(255, 0, 0, 0.493);
+}
+
+#the-second-section{
+    width: 100%;
+    height: 80vh;
+    
+}
+#staff-paragraph{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#staff-text{
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+#staff-display{
+    width: 1300px;
+    height: 400px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#staff1{
+    width: 400px;
+    height: 300px;
+   border: 2px solid green;
+}
+
+#display-name-image{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    gap: 15px;
+}
+#image-teacher{
+    margin-top: 25px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid green;
+}
+#name-staffs{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#socio-icons{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    gap: 20px;
+}
+#socio1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid green;
+
+}
+
+#fotter{
+    width: 100%;
+    height: 80px;
+    background: rgb(2, 39, 2);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <!--main section copyrighted by balon236-->
+    <section id="main-section">
+        <div id="green-section">
+            <h4 id="number">675164481</h4>
+            <h4 id="email">balonleslie@gmail.com</h4>
+            <div id="social-media-icons">
+                <div id="icon-one"></div>
+                <div id="icon-two"></div>
+                <div id="icon-three"></div>
+                <div id="icon-four"></div>
+            </div>
+        </div>
+        <div id="the-white-section">
+            <h1  id="logo">AK</h1>
+            <div id="nav-icons">
+                <div id="nav-one">Home</div>
+                <div id="nav-two">About</div>
+                <div id="nav-three">Contact-us</div>
+                <div id="nav-four">Login</div>
+            </div>
+        </div>
+        <div id="text">
+  <h1 id="puppy-text">HELLO WORLD OF PUPPYS</h1>
+  <p id="paragraph">WE DELIVER THE BEST TO OUR CUSTOMERS</p>
+        </div>
+<div id="action-buttons">
+    <div id="action-1">BUY NOW</div>
+    <div id="action-2">ABOUT-US</div>
+</div>
+    </section>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--the second section of the front end view copyright balon236-->
+<section id="the-second-section">
+  <div id="staff-paragraph">
+    <h1 id="staff-text">Meet Our Staffs</h1>
+    <div id="staff-display">
+
+          <div id="staff1">
+              <div id="display-name-image">
+                <img id="image-teacher" src="" alt="picture">
+                <h3 id="name-staffs">Balon Leslie <br> CEO/ FOUNDER</h3>
+              </div>
+              <p id="staff-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+                 ea? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt recusandae,
+                  molestias natus a ducimus o sint quas! Similique consequuntur optio exercitationem
+                   atque voluptatibus. Aspernatur tempora consequatur dolor.   </p>
+              <div id="socio-icons">
+                <img id="socio1" src="" alt="picture">
+                <img id="socio1" src="" alt="picture">
+              </div>
+          </div>
+
+          <div id="staff1">
+            <div id="display-name-image">
+              <img id="image-teacher" src="" alt="picture">
+              <h3 id="name-staffs">Balon Leslie <br> CEO/ FOUNDER</h3>
+            </div>
+            <p id="staff-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+               ea? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt recusandae,
+                molestias natus a ducimus o sint quas! Similique consequuntur optio exercitationem
+                 atque voluptatibus. Aspernatur tempora consequatur dolor.   </p>
+            <div id="socio-icons">
+              <img id="socio1" src="" alt="picture">
+              <img id="socio1" src="" alt="picture">
+            </div>
+        </div>
+
+        <div id="staff1">
+            <div id="display-name-image">
+              <img id="image-teacher" src="" alt="picture">
+              <h3 id="name-staffs">Balon Leslie <br> CEO/ FOUNDER</h3>
+            </div>
+            <p id="staff-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+               ea? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt recusandae,
+                molestias natus a ducimus o sint quas! Similique consequuntur optio exercitationem
+                 atque voluptatibus. Aspernatur tempora consequatur dolor.   </p>
+            <div id="socio-icons">
+              <img id="socio1" src="" alt="picture">
+              <img id="socio1" src="" alt="picture">
+            </div>
+        </div>
+
+
+      
+
+    </div>
+  </div>
+    
+
+</section>
+<!--the last section of the front end view copyright balon236-->
+<section id="fotter">
+    <p>balonleslie@gmail.com</p>
+    <p>copyright@2024balon236</p>
+
+</section>
+
+    
+    
+
+
+
+</body>
+</html>
